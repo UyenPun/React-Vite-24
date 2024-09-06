@@ -20,3 +20,4 @@ https://nodejs.org/download/release/v20.14.0/
 3. Update file `.env.production` (nếu cần thiết)
 4. Build dự án: `npm run build`
 5. Chạy dự án: `npm run preview`
+6. Push dữ án có sẵn từ git khác lên git mình: `git remote set-url origin`

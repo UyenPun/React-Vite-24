@@ -6,8 +6,19 @@ import './App.css'
 function App() {
   const [count, setCount] = useState(0)
 
+  // function Hello() {
+    // alert('Hello World');
+  // }
+
+  const Hello = () => {
+    alert('Hello World');
+  }
+
+  Hello();
+
   return (
     <>
+      {console.log("Component rendered")} {/* Để kiểm tra khi component render */}
       <div>
         <a href="https://vitejs.dev" target="_blank">
           <img src={viteLogo} className="logo" alt="Vite logo" />
@@ -31,5 +42,6 @@ function App() {
     </>
   )
 }
+
 
 export default App

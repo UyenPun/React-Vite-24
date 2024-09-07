@@ -21,3 +21,4 @@ https://nodejs.org/download/release/v20.14.0/
 4. Build dự án: `npm run build`
 5. Chạy dự án: `npm run preview`
 6. Push dữ án có sẵn từ git khác lên git mình: `git remote set-url origin`
+7. Ctrl + K -> S: lưu đồng thời các file
